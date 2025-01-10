@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "tourism-mode",
+    "name": "Tourism Mode",
+    "authors": [ "Maddremor" ],
+    "description": "Makes locations with pre-written NPCs spawn close together.",
+    "category": "misc",
+    "dependencies": [ "dda" ]
+  }
+]

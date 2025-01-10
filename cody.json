@@ -1,0 +1,42 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FORCE_LOCATION_CODY",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [
+      {
+        "u_location_variable": { "context_val": "loc" },
+        "target_params": { "om_special": "isolated_road", "om_terrain": "isolated_house_farm_gunsmith", "search_range": 200, "z": 0 }
+      },
+      { "reveal_map": { "context_val": "loc" }, "radius": 2 }
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "isolated_road",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "isolated_road_field_0" },
+      {
+        "point": [ 1, 0, 0 ],
+        "overmap": "isolated_house_farm_gunsmith",
+        "camp": "isolated_artisans",
+        "camp_name": "Cody & Jay"
+      },
+      { "point": [ 0, 1, 0 ], "overmap": "isolated_house_farm_blacksmith" },
+      { "point": [ 1, 0, 1 ], "overmap": "isolated_house_farm_roof_gunsmith" },
+      { "point": [ 0, 1, 1 ], "overmap": "isolated_house_farm_roof_blacksmith" },
+      { "point": [ 1, 1, 0 ], "overmap": "isolated_road_field_1" },
+      { "point": [ 1, 1, 1 ], "overmap": "isolated_road_field_1_roof" },
+      { "point": [ 0, -1, 0 ], "locations": [ "land", "road" ] }
+    ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road", "connection": "local_road", "from": [ 0, 0, 0 ] } ],
+    "locations": [ "field" ],
+    "city_distance": [ 3, -1 ],
+    "city_sizes": [ 1, 16 ],
+    "occurrences": [ 1, 1 ],
+	"priority": 1,
+    "rotate": false,
+    "flags": [ "SAFE_AT_WORLDGEN", "MAN_MADE", "GLOBALLY_UNIQUE" ]
+  }
+]

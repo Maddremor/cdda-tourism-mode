@@ -1,0 +1,31 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FORCE_LOCATION_LAPIN",
+    "eoc_type": "EVENT",
+    "required_event": "game_start",
+    "effect": [
+      {
+        "u_location_variable": { "context_val": "loc" },
+        "target_params": { "om_special": "Cabin_Lapin", "om_terrain": "cabin_lapin", "search_range": 200, "z": 0 }
+      },
+      { "reveal_map": { "context_val": "loc" }, "radius": 2 }
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_Lapin",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "cabin_lapin_north", "camp": "lapin", "camp_name": "Lapin" },
+      { "point": [ 0, 0, 1 ], "overmap": "cabin_roof_lapin_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "field_graboid" }
+    ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "forest_trail", "connection": "forest_trail" } ],
+    "locations": [ "forest" ],
+    "city_distance": [ 25, -1 ],
+    "occurrences": [ 1, 1 ],
+	"priority": 1,
+    "//": "Inflated chance, effective rate ~40%",
+    "flags": [ "WILDERNESS", "GLOBALLY_UNIQUE", "MAN_MADE" ]
+  }
+]
