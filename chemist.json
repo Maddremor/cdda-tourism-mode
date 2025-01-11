@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "Occupied Chem Lab", "om_terrain": "chemical_lab_ocu", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "Occupied Chem Lab", "om_terrain": "chemical_lab_ocu", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 2 }
     ]

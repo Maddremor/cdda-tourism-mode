@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "physics_lab_LIXA", "om_terrain": "LIXA_road_guard", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "physics_lab_LIXA", "om_terrain": "LIXA_road_guard", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 4 }
     ]

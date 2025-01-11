@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "Isherwood Farm Mutable", "om_terrain": "dairy_farm_isherwood_SW", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "Isherwood Farm Mutable", "om_terrain": "dairy_farm_isherwood_SW", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 2 }
     ]

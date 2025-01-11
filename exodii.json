@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "exodii_base", "om_terrain": "exodii_base_x0y3z0", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "exodii_base", "om_terrain": "exodii_base_x0y3z0", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 4 }
     ]

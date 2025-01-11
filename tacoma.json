@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "ranch_camp", "om_terrain": "ranch_camp_67", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "ranch_camp", "om_terrain": "ranch_camp_67", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 2 }
     ]

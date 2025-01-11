@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "Cabin_Lapin", "om_terrain": "cabin_lapin", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "Cabin_Lapin", "om_terrain": "cabin_lapin", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 2 }
     ]

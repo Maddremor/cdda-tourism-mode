@@ -7,7 +7,7 @@
     "effect": [
       {
         "u_location_variable": { "context_val": "loc" },
-        "target_params": { "om_special": "evac_center", "om_terrain": "evac_center_13", "search_range": 200, "z": 0 }
+        "target_params": { "om_special": "evac_center", "om_terrain": "evac_center_13", "z": 0 }
       },
       { "reveal_map": { "context_val": "loc" }, "radius": 2 }
     ]
